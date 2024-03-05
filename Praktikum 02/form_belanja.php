@@ -75,7 +75,7 @@ if ($produk == "tv"){
     $total_harga = $jumlah * $hargaTV;
 } elseif ($produk == "kulkas"){
     $total_harga = $hargaKulkas * $jumlah;
-} elseif ($produk == "mesin_cuci"){
+} elseif ($produk == "mesin cuci"){
     $total_harga = $jumlah * $hargaMesin;
 } else {
     $total_harga = "0 ";
